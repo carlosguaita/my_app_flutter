@@ -1,0 +1,24 @@
+"A new Flutter Screen with a Scaffold": {
+		"prefix": "fl-screen",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:Home}Screen extends StatelessWidget {",
+			"   ",
+			"  const ${1:Home}Screen({Key? key}) : super(key: key);",
+			"  ",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return Scaffold(",
+			"      appBar: AppBar(",
+			"      title: const Text('${1:Home}Screen'),",
+			"      ),",
+			"      body: const Center(",
+			"         child: Text('${1:Home}Screen'),",
+			"      ),",
+			"    );",
+			"  }",
+			"}"			
+		],
+		"description": "Crea una pantalla con un Scaffold"
+	}

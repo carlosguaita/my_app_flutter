@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../utils/utils.dart';
-import 'details_screen.dart';
+import 'screens.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -32,6 +32,16 @@ class HomeScreen extends StatelessWidget {
             );
           }).toList(),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
+        onPressed: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => NewContactScreen(),
+              ));
+        },
       ),
     );
   }

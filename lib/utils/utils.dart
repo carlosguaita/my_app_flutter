@@ -27,4 +27,9 @@ class Utils {
         telefono: "348902348",
         imagen: "images/imagen4.png"),
   ];
+
+  static const nombre = "Nombre";
+  static const direccion = "Dirección";
+  static const telefono = "Telefóno";
+  static const cedula = "Cédula";
 }
